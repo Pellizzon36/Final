@@ -6,20 +6,17 @@ const pedidoData = JSON.parse(filepedido)
 
 const  router = Router()
 
-router.post('/infsector',(req,res)=>{
+router.post('/infpedido',(req,res)=>{
     const estado = req.body.estado
-    let aux_sector = ''
+    let aux_pedido = ''
 
     try{
-        const arr = secData.filter(e => e.id == id)
+        const arr = pedidoData.filter(e => e.estado == estado)
         const result = arr.map(e=>{
-            aux_sector = get_sec_byid(e.id)
-            aux_sector = aux_sector
+            aux_pedido = get_ped_byid(e.estado)
+            aux_pedido = aux_pedido.estado
         return {
-            id: e.id,
-            sector: aux_sector,
-            mesas: e.mesas,
-            Ocupadas: e.ocupacion
+            Ocupadas: aux_pedido
         }
     })
     if(result){
@@ -31,3 +28,5 @@ router.post('/infsector',(req,res)=>{
         res.send(500).json('Error al Buscar...')
     }
 })
+
+export default router
