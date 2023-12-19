@@ -1,0 +1,47 @@
+{
+    "sectores": [
+      {
+        "id": 1,
+        "nombre": "VIP Lounge",
+        "mesas": [101, 102, 103],
+        "mozos": ["Ana",
+                 "Pablo",
+                "Pedro"],
+        "ocupacion": 5,
+        "capacidad": 8
+      },
+      {
+        "id": 2,
+        "nombre": "Terraza",
+        "mesas": [201, 202, 203, 204],
+        "mozos": ["Javier",
+                  "Dario"],
+        "ocupacion": 7,
+        "capacidad": 10
+      },
+      {
+        "id": 3,
+        "nombre": "Salón de Eventos",
+        "mesas": [301, 302],
+        "mozos": ["Marta",
+                  "Diego",
+                  "Jose",
+                  "Marcos",
+                  "Laura"],
+        "ocupacion": 3,
+        "capacidad": 6
+      },
+      {
+        "id": 4,
+        "nombre": "Área Familiar",
+        "mesas": [401, 402, 403, 404, 405],
+        "mozos": ["Pablo",
+                  "Liliana",
+                  "Susana",
+                  "Marcela"],
+        "ocupacion": 6,
+        "capacidad": 7
+      }
+    ]
+  }
+  

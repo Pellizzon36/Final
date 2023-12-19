@@ -1,0 +1,65 @@
+{
+    "mozos": [
+      {
+        "id": 1,
+        "nombre": "Carlos López",
+        "edad": 25,
+        "dni": "12345678"
+      },
+      {
+        "id": 2,
+        "nombre": "María Rodríguez",
+        "edad": 28,
+        "dni": "23456789"
+      },
+      {
+        "id": 3,
+        "nombre": "Juan García",
+        "edad": 30,
+        "dni": "34567890"
+      },
+      {
+        "id": 4,
+        "nombre": "Luisa Martínez",
+        "edad": 26,
+        "dni": "45678901"
+      },
+      {
+        "id": 5,
+        "nombre": "Pedro Sánchez",
+        "edad": 27,
+        "dni": "56789012"
+      },
+      {
+        "id": 6,
+        "nombre": "Laura Pérez",
+        "edad": 29,
+        "dni": "67890123"
+      },
+      {
+        "id": 7,
+        "nombre": "Ana Gómez",
+        "edad": 24,
+        "dni": "78901234"
+      },
+      {
+        "id": 8,
+        "nombre": "Diego Fernandez",
+        "edad": 32,
+        "dni": "89012345"
+      },
+      {
+        "id": 9,
+        "nombre": "Sofía Ruiz",
+        "edad": 31,
+        "dni": "90123456"
+      },
+      {
+        "id": 10,
+        "nombre": "Javier López",
+        "edad": 26,
+        "dni": "01234567"
+      }
+    ]
+  }
+  

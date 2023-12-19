@@ -1,7 +1,7 @@
 import express from 'express' 
 import dotenv from 'dotenv'
-//import ingRouter from  './routes/ing.routes.js'
-//import recRouter from  './routes/rec.routes.js'
+import secRouter from  './routes/sec.routes.js'
+import mozoRouter from  './routes/mozo.routes.js'
 
 dotenv.config()
 
@@ -15,5 +15,5 @@ app.listen(port, () =>{
     console.log(`Servidor Levantado en el Puerto ${port}`)
 })
 
-//app.use('/ing', ingRouter)
-//app.use('/rec', recRouter)
+app.use('/sec', secRouter)
+app.use('/moz', mozoRouter)
