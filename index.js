@@ -16,6 +16,7 @@ app.listen(port, () =>{
     console.log(`Servidor Levantado en el Puerto ${port}`)
 })
 
-app.use('/sec', secRouter)
-app.use('/moz', mozoRouter)
-app.use('/ped', pedidoRouter)
+app.use('/sectores', secRouter)
+app.use('/mozo', mozoRouter)
+app.use('/pedidos', pedidoRouter)
+

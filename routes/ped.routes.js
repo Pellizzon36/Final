@@ -29,4 +29,13 @@ router.post('/infpedido',(req,res)=>{
     }
 })
 
+//Abrir mesa
+
+router.post('/abrirMesa', (req, res)=>{
+    const mesa = req.body.newmesa
+    pedidoData.push(ped)
+    writeFile('./Pedido.json', JSON.stringify(pedidoData,null,2))
+    res.status(200).json('Mesa Abierta')
+}) 
+
 export default router

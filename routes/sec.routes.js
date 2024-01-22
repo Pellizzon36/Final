@@ -6,6 +6,8 @@ const secData = JSON.parse(fileSector)
 
 const  router = Router()
 
+
+
 router.post('/infsector',(req,res)=>{
     const id = req.body.id
     let aux_sector = ''
